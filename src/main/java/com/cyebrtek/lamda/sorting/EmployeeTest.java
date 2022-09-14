@@ -27,5 +27,8 @@ public class EmployeeTest {
 
         System.out.println(employeesList);
 
+        employeesList.sort((emp1,emp2) ->emp1.getEmployeeId().compareTo(emp2.getEmployeeId()));
+        System.out.println(employeesList);
+
     }
 }
